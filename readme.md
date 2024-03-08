@@ -125,7 +125,7 @@ Emoji in Headers.
 
 ## API
 
-### `nomark(input: string, options?: nomarkOptions): string`
+### `nomark(input: string, options?: NomarkOptions): string`
 
 This function transforms hypertext strings into plain text by applying [Unicode normalization](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize?retiredLocale=id#form), stripping HTML tags, and removing Markdown syntax.
 
